@@ -17,24 +17,36 @@
 <body>
 
     <header>
-
+        <!-- barra de navegacion -->
         <nav>
-            <div class="nav-btns">
-                <i class='bx bx-moon'></i>
-                <div class="cart">
-                    <i class='bx bx-shopping-bag' id="shopping-cart-icon"></i>
-                    <span class="cart-count" id="cart-count">0</span>
+            <!-- flotante izquierdo-->
+            <div class="containerNav prueba p1">
+                <div class="flotante1">
+                    <div class="logo-academlo">
+                        <img src="/assets/images/logoAcademlo.svg" alt="">
+                    </div>
+                    <div class="nombre-ecommerce">
+                        <h1>STORE</h1>
+                    </div>
                 </div>
-                <i class="bx bx-grid-alt"></i>
-            </div>
-
-            <div class="shopping-cart-overlay">
-                <div class="selected-products-list">
-                    <i class="bx bx-x bx-md cart-close" id="cart-close"></i>
-                    <div class="cart-list">
-                        <div class="empty-state">
-                            <img src="./assets/images/empty-cart.png" alt="">
-                            <h5>Aun no has agregado ningun producto a tu carrito</h5>
+                <!-- flotante derecho -->
+                <div class="nav-btns">
+                    <i class='bx bx-moon'></i>
+                    <div class="cart">
+                        <i class='bx bx-shopping-bag' id="shopping-cart-icon"></i>
+                        <span class="cart-count" id="cart-count">0</span>
+                    </div>
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+                <!--pantalla carrito de compras-->
+                <div class="shopping-cart-overlay">
+                    <div class="selected-products-list">
+                        <i class="bx bx-x bx-md cart-close" id="cart-close"></i>
+                        <div class="cart-list">
+                            <div class="empty-state">
+                                <img src="./assets/images/empty-cart.png" alt="">
+                                <h5>Aun no has agregado ningun producto a tu carrito</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -43,138 +55,141 @@
 
     </header>
 
-    <aside class="imgPpal">
-        <div class="boxPpal">
-            <img src="./assets/images/home.png" alt="">
-        </div>
-    </aside>
-    <br>
-
-    <div class="title">
-        <h2>New Sweatshirt COLLECTIONS 2022 </h2>
-    </div>
-
-    <div class="parrafo1">
-        <span>Lastest arrival of the new Hanes Midweight
-            Crewneck sweatshirt imported from 2022 series,
-            with a modern design.
-        </span>
-    </div>
-
-    <div class="price">
-        <span class="priceText">$14.00</span>
-    </div>
-
-    <br>
-
-    <div class="botones">
-        <div class="discoverBox">
-            <span class="discoverText"> Discover</span>
-        </div>
-
-
-        <div class="addCart">
-            <span class="addCartText"> ADD TO CART</span>
-        </div>
-    </div>
-
-
-    <div class="productos">
-        <div>
-            <button class="filter">
-                <h4>
-                    Show All
-                </h4>
-                <p>show all products</p>
-            </button>
-
-        </div>
-
-        <div>
-            <button class="filter">
-                <h4>
-                    Sweatshirts
-                </h4>
-                <p>
-                    4 products
-                </p>
-            </button>
-        </div>
-
-        <div>
-            <button class="filter">
-                <h4>
-                    Shirts
-                </h4>
-                <p>
-                    4 products
-                </p>
-            </button>
-        </div>
-
-        <div>
-            <button class="filter">
-                <h4>
-                    Hoodies
-                </h4>
-                <p>
-                    3 products
-                </p>
-            </button>
-        </div>
-
-    </div>
-
-    <section id="card-section">
-
-        <div class="card">
-            <div class="card-img card1"></div>
-            <div class="card-body">
-                <h3 class="card-title">$14.00</h3>
-                <small>stock:</small>
-                <h4 class="card-text">Hoodies</h4>
-                <div class="agregar">
-                    <a href="#" data-id="1" class="btn btn-primary">+</a>
+    <main>
+        <!-- cuadrado rojo-->
+        <aside>
+            <div class="home-img prueba p2">
+                <div class="home-img-bg">
+                    <img src="./assets/images/home.png" alt="">
                 </div>
             </div>
+        </aside>
+
+        <!--titulo-->
+        <div class="title">
+            <h2>New Sweatshirt COLLECTIONS 2022 </h2>
+        </div>
+        <!-- parrafo texto -->
+        <div class="parrafo1">
+            <span>Lastest arrival of the new Hanes Midweight
+                Crewneck sweatshirt imported from 2022 series,
+                with a modern design.
+            </span>
+        </div>
+        <!-- precio texto -->
+        <div class="price">
+            <span class="priceText">$14.00</span>
         </div>
 
-        <div class="card">
-            <div class="card-img  card2"></div>
-            <div class="card-body">
-                <h3 class="card-title">$24.00</h3>
-                <small>stock:</small>
-                <h4 class="card-text">Shirts</h4>
-                <div class="agregar">
-                    <a href="#" data-id="2" class="btn btn-primary">+</a>
+
+        <!-- botoner de agregar al carro  -->
+        <div class="botones">
+            <div class="discoverBox">
+                <span class="discoverText"> Discover</span>
+            </div>
+            <div class="addCart">
+                <span class="addCartText"> ADD TO CART</span>
+            </div>
+        </div>
+
+        <!-- ----------botones - productos---- -->
+        <div class="productos">
+
+            <div class="botonesPro">
+                <button class="filter">
+                    <h4>
+                        Show All
+                    </h4>
+                    <p>show all products</p>
+                </button>
+            </div>
+
+            <div class="botonesProd">
+                <button class="filter">
+                    <h4>
+                        Sweatshirts
+                    </h4>
+                    <p>
+                        4 products
+                    </p>
+                </button>
+            </div>
+
+            <div class="botonesPro">
+                <button class="filter">
+                    <h4>
+                        Shirts
+                    </h4>
+                    <p>
+                        4 products
+                    </p>
+                </button>
+            </div>
+
+            <div class="botonesPro">
+                <button class="filter">
+                    <h4>
+                        Hoodies
+                    </h4>
+                    <p>
+                        3 products
+                    </p>
+                </button>
+            </div>
+
+        </div>
+
+        <section id="card-section">
+
+            <div class="card">
+                <div class="card-img card1"></div>
+                <div class="card-body">
+                    <h3 class="card-title">$14.00</h3>
+                    <small>stock:</small>
+                    <h4 class="card-text">Hoodies</h4>
+                    <div class="agregar">
+                        <a href="#" data-id="1" class="btn btn-primary">+</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
 
-        <div class="card">
-            <div class="card-img  card3"></div>
-            <div class="card-body">
-                <h3 class="card-title">$24.00</h3>
-                <small>stock:</small>
-                <h4 class="card-text">Sweatshirt</h4>
+            <div class="card">
+                <div class="card-img  card2"></div>
+                <div class="card-body">
+                    <h3 class="card-title">$24.00</h3>
+                    <small>stock:</small>
+                    <h4 class="card-text">Shirts</h4>
+                    <div class="agregar">
+                        <a href="#" data-id="2" class="btn btn-primary">+</a>
+                    </div>
+                </div>
             </div>
-            <div class="agregar">
-                <a href="#" data-id="3" class="btn btn-primary">+</a>
             </div>
-        </div>
-    </section>
+
+            <div class="card">
+                <div class="card-img  card3"></div>
+                <div class="card-body">
+                    <h3 class="card-title">$24.00</h3>
+                    <small>stock:</small>
+                    <h4 class="card-text">Sweatshirt</h4>
+                </div>
+                <div class="agregar">
+                    <a href="#" data-id="3" class="btn btn-primary">+</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
     <footer>
-
-        <div>
+        <div class="footInfo">
             <h2>Our information</h2>
             <ul>
-                <li>Toluca-Mexico</li>
+                <li>Caqueta-Colombia</li>
             </ul>
         </div>
 
-        <div>
+        <div class="footAbout">
             <h2>About us</h2>
             <ul>
                 <li>
@@ -192,7 +207,7 @@
             </ul>
         </div>
 
-        <div>
+        <div class="footProduct">
             <h2>Product</h2>
             <ul>
                 <li>
@@ -207,16 +222,21 @@
             </ul>
         </div>
 
-        <div>
+        <div class="footSocial">
             <h2>Social</h2>
             <div id="Social">
-                <img src="" alt="Facebook">
-                <img src="" alt="Twitter">
-                <img src="" alt="Instagram">
+                <div class="container">
+                    <img src="/assets/images/facebook-circle-logo-24.png" alt="Facebook">
+                </div>
+                <div class="container">
+                    <img src="/assets/images/twitter-logo-24.png" alt="Twitter">
+                </div>
+                <div class="container">
+                    <img src="/assets/images/instagram-logo-24.png" alt="Instagram">
+                </div>
             </div>
         </div>
     </footer>
-
 
 
     <div class="shopping-cart-overlay">
@@ -230,8 +250,6 @@
             </div>
         </div>
     </div>
-
-
     <script src="/assets/js/main.js"></script>
 </body>
 
